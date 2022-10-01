@@ -1,2 +1,2 @@
 # AvelynW.github.io
-portfolio website
+Avelyn Woon's portfolio website
