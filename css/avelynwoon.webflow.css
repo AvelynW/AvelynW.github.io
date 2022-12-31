@@ -1517,6 +1517,12 @@ h3 {
   margin-left: 5vw;
 }
 
+.responsive-design {
+  margin-top: 3vh;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
 .research-study-plan {
   overflow: hidden;
   height: 50vh;
@@ -2869,7 +2875,11 @@ h3 {
 }
 
 .project-overview {
-  margin-top: 5vh;
+  margin-top: 10vh;
+}
+
+.project-overview-2 {
+  margin-top: -8vh;
 }
 
 .heading-20 {
@@ -3048,6 +3058,22 @@ h3 {
   margin-top: 30vh;
   margin-right: 5vw;
   margin-left: auto;
+}
+
+.div-block-100 {
+  width: 40vw;
+  height: 80vh;
+  margin-top: 18vh;
+  margin-right: 5vw;
+  margin-left: auto;
+}
+
+.div-block-101 {
+  width: 40vw;
+  height: 55vh;
+  margin-top: 30vh;
+  margin-right: auto;
+  margin-left: 5vw;
 }
 
 .understanding-the-user {
@@ -3241,6 +3267,16 @@ h3 {
   margin-bottom: 20vh;
 }
 
+.div-block-85-copy {
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+}
+
+.div-block-85-copy-copy {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
 .column-19 {
   height: 60vh;
   padding-right: 0px;
@@ -3255,8 +3291,8 @@ h3 {
 }
 
 .div-block-86 {
-  width: 35%;
-  height: 35%;
+  width: 15vw;
+  height: 60vh;
   margin-top: 2vh;
 }
 
@@ -3569,6 +3605,38 @@ h3 {
   margin-top: 5vh;
   margin-right: 5vw;
   margin-left: 5vw;
+}
+
+.div-block-102 {
+  width: 75vw;
+  height: 80vh;
+  margin-bottom: 2vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-103 {
+  width: 25vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-104 {
+  width: 75vw;
+  height: 115vh;
+  margin-top: -4vh;
+  margin-bottom: 2vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-105 {
+  width: 75vw;
+  height: 105vh;
+  margin-top: 4vh;
+  margin-bottom: 10vh;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .high-fidelity-prototype {
