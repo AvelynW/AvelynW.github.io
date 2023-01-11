@@ -674,6 +674,10 @@ h3 {
   white-space: normal;
 }
 
+.contact-hover:hover {
+  color: white;
+}
+
 .section {
   width: 85vw;
   height: 45vh;
