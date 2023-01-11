@@ -1231,17 +1231,6 @@ h3 {
   text-decoration: none;
 }
 
-.link-4 {
-  display: inline-block;
-  margin-top: 42%;
-  font-family: Nunito, sans-serif;
-  color: #00ba7b;
-  font-size: 15vh;
-  line-height: 15vh;
-  font-weight: 900;
-  text-decoration: none;
-}
-
 .column-9 {
   display: -webkit-box;
   display: -webkit-flex;
