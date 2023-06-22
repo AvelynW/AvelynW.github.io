@@ -34958,6 +34958,70 @@ Webflow.require('ix2').init({
                 "effectIn": false
             },
             "createdOn": 1687220293495
+        },
+        "e-365": {
+            "id": "e-365",
+            "name": "",
+            "animationType": "preset",
+            "eventTypeId": "SCROLL_INTO_VIEW",
+            "action": {
+                "id": "",
+                "actionTypeId": "GROW_BIG_EFFECT",
+                "instant": false,
+                "config": {
+                    "actionListId": "growBigIn",
+                    "autoStopEventId": "e-366"
+                }
+            },
+            "mediaQueries": ["main", "medium", "small", "tiny"],
+            "target": {
+                "id": "637fef1769e6ad1034704410|81bd3ffd-b06c-4d6f-1278-44a68ecb40c4",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            },
+            "targets": [],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": 0,
+                "scrollOffsetUnit": "%",
+                "delay": 225,
+                "direction": null,
+                "effectIn": true
+            },
+            "createdOn": 1687460147418
+        },
+        "e-366": {
+            "id": "e-366",
+            "name": "",
+            "animationType": "preset",
+            "eventTypeId": "SCROLL_OUT_OF_VIEW",
+            "action": {
+                "id": "",
+                "actionTypeId": "SLIDE_EFFECT",
+                "instant": false,
+                "config": {
+                    "actionListId": "slideOutTop",
+                    "autoStopEventId": "e-365"
+                }
+            },
+            "mediaQueries": ["main", "medium", "small", "tiny"],
+            "target": {
+                "id": "637fef1769e6ad1034704410|81bd3ffd-b06c-4d6f-1278-44a68ecb40c4",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            },
+            "targets": [],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": 0,
+                "scrollOffsetUnit": "%",
+                "delay": 0,
+                "direction": "TOP",
+                "effectIn": false
+            },
+            "createdOn": 1687460147418
         }
     },
     "actionLists": {

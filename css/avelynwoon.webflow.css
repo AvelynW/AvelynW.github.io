@@ -5546,6 +5546,21 @@ h3 {
   line-height: 4vh;
 }
 
+.div-block-111 {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.div-block-112 {
+  margin-top: 2.5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.columns-13 {
+  margin-top: 2.5vh;
+}
+
 @media screen and (max-width: 991px) {
   .text-block {
     font-size: 5vh;
@@ -5799,11 +5814,16 @@ h3 {
 
   .text-block-35 {
     margin-top: 0;
-    margin-left: 5vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .text-block-36 {
     margin-bottom: 0;
+  }
+
+  .div-block-111 {
+    margin-bottom: 2vh;
   }
 }
 
@@ -6132,12 +6152,19 @@ h3 {
   }
 
   .text-block-35 {
-    margin-top: 0;
-    margin-left: 5vw;
+    margin: 0 auto 2vh;
   }
 
   .text-block-36 {
     margin-bottom: 0;
+  }
+
+  .div-block-111 {
+    margin-bottom: 2vh;
+  }
+
+  .columns-13 {
+    text-align: center;
   }
 }
 
@@ -6867,9 +6894,10 @@ h3 {
   }
 
   .text-block-35 {
-    text-align: left;
+    text-align: center;
     margin-top: 0;
-    margin-left: 5vw;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1vh;
     line-height: 1vh;
     overflow: visible;
@@ -6878,7 +6906,7 @@ h3 {
   .text-block-36 {
     margin-top: 5vh;
     margin-bottom: 0;
-    font-size: 4vh;
+    font-size: 2vh;
     line-height: 5vh;
   }
 }
