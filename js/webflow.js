@@ -26842,12 +26842,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_OUT_OF_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "SLIDE_EFFECT",
-                "instant": false,
+                "actionTypeId": "SHRINK_BIG_EFFECT",
                 "config": {
-                    "actionListId": "slideOutTop",
+                    "actionListId": "shrinkBigOut",
                     "autoStopEventId": "e-27"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -26865,8 +26865,8 @@ Webflow.require('ix2').init({
                 "playInReverse": false,
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
-                "delay": 0,
-                "direction": "TOP",
+                "delay": 500,
+                "direction": null,
                 "effectIn": false
             },
             "createdOn": 1669348371524
@@ -26878,12 +26878,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_INTO_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "GROW_BIG_EFFECT",
-                "instant": false,
+                "actionTypeId": "GROW_EFFECT",
                 "config": {
-                    "actionListId": "growBigIn",
+                    "actionListId": "growIn",
                     "autoStopEventId": "e-30"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -26901,7 +26901,7 @@ Webflow.require('ix2').init({
                 "playInReverse": false,
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
-                "delay": 225,
+                "delay": 0,
                 "direction": null,
                 "effectIn": true
             },
@@ -26914,12 +26914,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_OUT_OF_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "SLIDE_EFFECT",
-                "instant": false,
+                "actionTypeId": "SHRINK_EFFECT",
                 "config": {
-                    "actionListId": "slideOutTop",
+                    "actionListId": "shrinkOut",
                     "autoStopEventId": "e-29"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -26938,7 +26938,7 @@ Webflow.require('ix2').init({
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
                 "delay": 0,
-                "direction": "TOP",
+                "direction": null,
                 "effectIn": false
             },
             "createdOn": 1669352268349
@@ -26950,12 +26950,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_INTO_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "GROW_BIG_EFFECT",
-                "instant": false,
+                "actionTypeId": "GROW_EFFECT",
                 "config": {
-                    "actionListId": "growBigIn",
+                    "actionListId": "growIn",
                     "autoStopEventId": "e-32"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -26973,7 +26973,7 @@ Webflow.require('ix2').init({
                 "playInReverse": false,
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
-                "delay": 225,
+                "delay": 0,
                 "direction": null,
                 "effectIn": true
             },
@@ -26986,12 +26986,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_OUT_OF_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "SLIDE_EFFECT",
-                "instant": false,
+                "actionTypeId": "SHRINK_EFFECT",
                 "config": {
-                    "actionListId": "slideOutTop",
+                    "actionListId": "shrinkOut",
                     "autoStopEventId": "e-31"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -27010,7 +27010,7 @@ Webflow.require('ix2').init({
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
                 "delay": 0,
-                "direction": "TOP",
+                "direction": null,
                 "effectIn": false
             },
             "createdOn": 1669353137276
@@ -27022,12 +27022,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_INTO_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "GROW_BIG_EFFECT",
-                "instant": false,
+                "actionTypeId": "GROW_EFFECT",
                 "config": {
-                    "actionListId": "growBigIn",
+                    "actionListId": "growIn",
                     "autoStopEventId": "e-34"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -27045,7 +27045,7 @@ Webflow.require('ix2').init({
                 "playInReverse": false,
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
-                "delay": 225,
+                "delay": 0,
                 "direction": null,
                 "effectIn": true
             },
@@ -27058,12 +27058,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_OUT_OF_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "SLIDE_EFFECT",
-                "instant": false,
+                "actionTypeId": "SHRINK_EFFECT",
                 "config": {
-                    "actionListId": "slideOutTop",
+                    "actionListId": "shrinkOut",
                     "autoStopEventId": "e-33"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -27082,7 +27082,7 @@ Webflow.require('ix2').init({
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
                 "delay": 0,
-                "direction": "TOP",
+                "direction": null,
                 "effectIn": false
             },
             "createdOn": 1669354327552
@@ -34071,302 +34071,6 @@ Webflow.require('ix2').init({
             },
             "createdOn": 1675471517253
         },
-        "e-341": {
-            "id": "e-341",
-            "name": "",
-            "animationType": "preset",
-            "eventTypeId": "MOUSE_OVER",
-            "action": {
-                "id": "",
-                "actionTypeId": "GENERAL_START_ACTION",
-                "config": {
-                    "delay": 0,
-                    "easing": "",
-                    "duration": 0,
-                    "actionListId": "a-2",
-                    "affectedElements": {},
-                    "playInReverse": false,
-                    "autoStopEventId": "e-342"
-                }
-            },
-            "mediaQueries": ["main", "medium", "small", "tiny"],
-            "target": {
-                "id": "637fef1769e6ad1034704410|628a3d4b-f80d-3884-5e8f-67a1a5a9120c",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            },
-            "targets": [{
-                "id": "637fef1769e6ad1034704410|628a3d4b-f80d-3884-5e8f-67a1a5a9120c",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            }],
-            "config": {
-                "loop": false,
-                "playInReverse": false,
-                "scrollOffsetValue": null,
-                "scrollOffsetUnit": null,
-                "delay": null,
-                "direction": null,
-                "effectIn": null
-            },
-            "createdOn": 1675549799914
-        },
-        "e-342": {
-            "id": "e-342",
-            "name": "",
-            "animationType": "preset",
-            "eventTypeId": "MOUSE_OUT",
-            "action": {
-                "id": "",
-                "actionTypeId": "GENERAL_START_ACTION",
-                "config": {
-                    "delay": 0,
-                    "easing": "",
-                    "duration": 0,
-                    "actionListId": "a-3",
-                    "affectedElements": {},
-                    "playInReverse": false,
-                    "autoStopEventId": "e-341"
-                }
-            },
-            "mediaQueries": ["main", "medium", "small", "tiny"],
-            "target": {
-                "id": "637fef1769e6ad1034704410|628a3d4b-f80d-3884-5e8f-67a1a5a9120c",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            },
-            "targets": [{
-                "id": "637fef1769e6ad1034704410|628a3d4b-f80d-3884-5e8f-67a1a5a9120c",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            }],
-            "config": {
-                "loop": false,
-                "playInReverse": false,
-                "scrollOffsetValue": null,
-                "scrollOffsetUnit": null,
-                "delay": null,
-                "direction": null,
-                "effectIn": null
-            },
-            "createdOn": 1675549799914
-        },
-        "e-343": {
-            "id": "e-343",
-            "name": "",
-            "animationType": "preset",
-            "eventTypeId": "SCROLL_INTO_VIEW",
-            "action": {
-                "id": "",
-                "actionTypeId": "GROW_BIG_EFFECT",
-                "instant": false,
-                "config": {
-                    "actionListId": "growBigIn",
-                    "autoStopEventId": "e-344"
-                }
-            },
-            "mediaQueries": ["main", "medium", "small", "tiny"],
-            "target": {
-                "id": "637fef1769e6ad1034704410|628a3d4b-f80d-3884-5e8f-67a1a5a9120c",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            },
-            "targets": [{
-                "id": "637fef1769e6ad1034704410|628a3d4b-f80d-3884-5e8f-67a1a5a9120c",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            }],
-            "config": {
-                "loop": false,
-                "playInReverse": false,
-                "scrollOffsetValue": 0,
-                "scrollOffsetUnit": "%",
-                "delay": 225,
-                "direction": null,
-                "effectIn": true
-            },
-            "createdOn": 1675549799914
-        },
-        "e-344": {
-            "id": "e-344",
-            "name": "",
-            "animationType": "preset",
-            "eventTypeId": "SCROLL_OUT_OF_VIEW",
-            "action": {
-                "id": "",
-                "actionTypeId": "SLIDE_EFFECT",
-                "instant": false,
-                "config": {
-                    "actionListId": "slideOutTop",
-                    "autoStopEventId": "e-343"
-                }
-            },
-            "mediaQueries": ["main", "medium", "small", "tiny"],
-            "target": {
-                "id": "637fef1769e6ad1034704410|628a3d4b-f80d-3884-5e8f-67a1a5a9120c",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            },
-            "targets": [{
-                "id": "637fef1769e6ad1034704410|628a3d4b-f80d-3884-5e8f-67a1a5a9120c",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            }],
-            "config": {
-                "loop": false,
-                "playInReverse": false,
-                "scrollOffsetValue": 0,
-                "scrollOffsetUnit": "%",
-                "delay": 0,
-                "direction": "TOP",
-                "effectIn": false
-            },
-            "createdOn": 1675549799914
-        },
-        "e-345": {
-            "id": "e-345",
-            "name": "",
-            "animationType": "preset",
-            "eventTypeId": "SCROLL_INTO_VIEW",
-            "action": {
-                "id": "",
-                "actionTypeId": "FADE_EFFECT",
-                "instant": false,
-                "config": {
-                    "actionListId": "fadeIn",
-                    "autoStopEventId": "e-346"
-                }
-            },
-            "mediaQueries": ["main", "medium", "small", "tiny"],
-            "target": {
-                "id": "637fef1769e6ad1034704410|ab33006f-e30b-c9ec-a20d-054de5d3391f",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            },
-            "targets": [{
-                "id": "637fef1769e6ad1034704410|ab33006f-e30b-c9ec-a20d-054de5d3391f",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            }],
-            "config": {
-                "loop": false,
-                "playInReverse": false,
-                "scrollOffsetValue": 0,
-                "scrollOffsetUnit": "%",
-                "delay": 800,
-                "direction": null,
-                "effectIn": true
-            },
-            "createdOn": 1675549804244
-        },
-        "e-346": {
-            "id": "e-346",
-            "name": "",
-            "animationType": "preset",
-            "eventTypeId": "SCROLL_OUT_OF_VIEW",
-            "action": {
-                "id": "",
-                "actionTypeId": "FADE_EFFECT",
-                "instant": false,
-                "config": {
-                    "actionListId": "fadeOut",
-                    "autoStopEventId": "e-345"
-                }
-            },
-            "mediaQueries": ["main", "medium", "small", "tiny"],
-            "target": {
-                "id": "637fef1769e6ad1034704410|ab33006f-e30b-c9ec-a20d-054de5d3391f",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            },
-            "targets": [{
-                "id": "637fef1769e6ad1034704410|ab33006f-e30b-c9ec-a20d-054de5d3391f",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            }],
-            "config": {
-                "loop": false,
-                "playInReverse": false,
-                "scrollOffsetValue": 0,
-                "scrollOffsetUnit": "%",
-                "delay": 500,
-                "direction": null,
-                "effectIn": false
-            },
-            "createdOn": 1675549804244
-        },
-        "e-347": {
-            "id": "e-347",
-            "name": "",
-            "animationType": "preset",
-            "eventTypeId": "SCROLL_INTO_VIEW",
-            "action": {
-                "id": "",
-                "actionTypeId": "FADE_EFFECT",
-                "instant": false,
-                "config": {
-                    "actionListId": "fadeIn",
-                    "autoStopEventId": "e-348"
-                }
-            },
-            "mediaQueries": ["main", "medium", "small", "tiny"],
-            "target": {
-                "id": "637fef1769e6ad1034704410|4349826e-cef4-faa4-3453-36487fb970c3",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            },
-            "targets": [{
-                "id": "637fef1769e6ad1034704410|4349826e-cef4-faa4-3453-36487fb970c3",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            }],
-            "config": {
-                "loop": false,
-                "playInReverse": false,
-                "scrollOffsetValue": 0,
-                "scrollOffsetUnit": "%",
-                "delay": 800,
-                "direction": null,
-                "effectIn": true
-            },
-            "createdOn": 1675549809022
-        },
-        "e-348": {
-            "id": "e-348",
-            "name": "",
-            "animationType": "preset",
-            "eventTypeId": "SCROLL_OUT_OF_VIEW",
-            "action": {
-                "id": "",
-                "actionTypeId": "FADE_EFFECT",
-                "instant": false,
-                "config": {
-                    "actionListId": "fadeOut",
-                    "autoStopEventId": "e-347"
-                }
-            },
-            "mediaQueries": ["main", "medium", "small", "tiny"],
-            "target": {
-                "id": "637fef1769e6ad1034704410|4349826e-cef4-faa4-3453-36487fb970c3",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            },
-            "targets": [{
-                "id": "637fef1769e6ad1034704410|4349826e-cef4-faa4-3453-36487fb970c3",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            }],
-            "config": {
-                "loop": false,
-                "playInReverse": false,
-                "scrollOffsetValue": 0,
-                "scrollOffsetUnit": "%",
-                "delay": 0,
-                "direction": null,
-                "effectIn": false
-            },
-            "createdOn": 1675549809022
-        },
         "e-349": {
             "id": "e-349",
             "name": "",
@@ -34490,12 +34194,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_OUT_OF_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "SLIDE_EFFECT",
-                "instant": false,
+                "actionTypeId": "SHRINK_BIG_EFFECT",
                 "config": {
-                    "actionListId": "slideOutTop",
+                    "actionListId": "shrinkBigOut",
                     "autoStopEventId": "e-351"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -34513,8 +34217,8 @@ Webflow.require('ix2').init({
                 "playInReverse": false,
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
-                "delay": 0,
-                "direction": "TOP",
+                "delay": 500,
+                "direction": null,
                 "effectIn": false
             },
             "createdOn": 1675549928437
@@ -34750,48 +34454,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_INTO_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "GROW_BIG_EFFECT",
-                "instant": false,
+                "actionTypeId": "GROW_EFFECT",
                 "config": {
-                    "actionListId": "growBigIn",
+                    "actionListId": "growIn",
                     "autoStopEventId": "e-360"
-                }
-            },
-            "mediaQueries": ["main", "medium", "small", "tiny"],
-            "target": {
-                "id": "637fef1769e6ad1034704410|791dbeee-49a1-2f48-a44c-6c5879eb4b85",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            },
-            "targets": [{
-                "id": "637fef1769e6ad1034704410|791dbeee-49a1-2f48-a44c-6c5879eb4b85",
-                "appliesTo": "ELEMENT",
-                "styleBlockIds": []
-            }],
-            "config": {
-                "loop": false,
-                "playInReverse": false,
-                "scrollOffsetValue": 0,
-                "scrollOffsetUnit": "%",
-                "delay": 225,
-                "direction": null,
-                "effectIn": true
-            },
-            "createdOn": 1687218439337
-        },
-        "e-360": {
-            "id": "e-360",
-            "name": "",
-            "animationType": "preset",
-            "eventTypeId": "SCROLL_OUT_OF_VIEW",
-            "action": {
-                "id": "",
-                "actionTypeId": "SLIDE_EFFECT",
-                "instant": false,
-                "config": {
-                    "actionListId": "slideOutTop",
-                    "autoStopEventId": "e-359"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -34810,7 +34478,43 @@ Webflow.require('ix2').init({
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
                 "delay": 0,
-                "direction": "TOP",
+                "direction": null,
+                "effectIn": true
+            },
+            "createdOn": 1687218439337
+        },
+        "e-360": {
+            "id": "e-360",
+            "name": "",
+            "animationType": "preset",
+            "eventTypeId": "SCROLL_OUT_OF_VIEW",
+            "action": {
+                "id": "",
+                "actionTypeId": "SHRINK_EFFECT",
+                "config": {
+                    "actionListId": "shrinkOut",
+                    "autoStopEventId": "e-359"
+                },
+                "instant": false
+            },
+            "mediaQueries": ["main", "medium", "small", "tiny"],
+            "target": {
+                "id": "637fef1769e6ad1034704410|791dbeee-49a1-2f48-a44c-6c5879eb4b85",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            },
+            "targets": [{
+                "id": "637fef1769e6ad1034704410|791dbeee-49a1-2f48-a44c-6c5879eb4b85",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": 0,
+                "scrollOffsetUnit": "%",
+                "delay": 0,
+                "direction": null,
                 "effectIn": false
             },
             "createdOn": 1687218439337
@@ -34858,12 +34562,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_OUT_OF_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "SLIDE_EFFECT",
-                "instant": false,
+                "actionTypeId": "SHRINK_BIG_EFFECT",
                 "config": {
-                    "actionListId": "slideOutTop",
+                    "actionListId": "shrinkBigOut",
                     "autoStopEventId": "e-361"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -34882,7 +34586,7 @@ Webflow.require('ix2').init({
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
                 "delay": 0,
-                "direction": "TOP",
+                "direction": null,
                 "effectIn": false
             },
             "createdOn": 1687220161970
@@ -34930,12 +34634,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_OUT_OF_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "SLIDE_EFFECT",
-                "instant": false,
+                "actionTypeId": "SHRINK_BIG_EFFECT",
                 "config": {
-                    "actionListId": "slideOutTop",
+                    "actionListId": "shrinkBigOut",
                     "autoStopEventId": "e-363"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -34954,7 +34658,7 @@ Webflow.require('ix2').init({
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
                 "delay": 0,
-                "direction": "TOP",
+                "direction": null,
                 "effectIn": false
             },
             "createdOn": 1687220293495
@@ -34979,7 +34683,11 @@ Webflow.require('ix2').init({
                 "appliesTo": "ELEMENT",
                 "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "637fef1769e6ad1034704410|81bd3ffd-b06c-4d6f-1278-44a68ecb40c4",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -34998,12 +34706,12 @@ Webflow.require('ix2').init({
             "eventTypeId": "SCROLL_OUT_OF_VIEW",
             "action": {
                 "id": "",
-                "actionTypeId": "SLIDE_EFFECT",
-                "instant": false,
+                "actionTypeId": "SHRINK_BIG_EFFECT",
                 "config": {
-                    "actionListId": "slideOutTop",
+                    "actionListId": "shrinkBigOut",
                     "autoStopEventId": "e-365"
-                }
+                },
+                "instant": false
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
@@ -35011,14 +34719,18 @@ Webflow.require('ix2').init({
                 "appliesTo": "ELEMENT",
                 "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "637fef1769e6ad1034704410|81bd3ffd-b06c-4d6f-1278-44a68ecb40c4",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
                 "scrollOffsetValue": 0,
                 "scrollOffsetUnit": "%",
                 "delay": 0,
-                "direction": "TOP",
+                "direction": null,
                 "effectIn": false
             },
             "createdOn": 1687460147418
@@ -36378,10 +36090,24 @@ Webflow.require('ix2').init({
                 }]
             }]
         },
-        "slideOutTop": {
-            "id": "slideOutTop",
+        "shrinkBigOut": {
+            "id": "shrinkBigOut",
             "actionItemGroups": [{
                 "actionItems": [{
+                    "actionTypeId": "TRANSFORM_SCALE",
+                    "config": {
+                        "delay": 0,
+                        "easing": "inQuart",
+                        "duration": 1000,
+                        "target": {
+                            "id": "N/A",
+                            "appliesTo": "TRIGGER_ELEMENT",
+                            "useEventTarget": true
+                        },
+                        "xValue": 0,
+                        "yValue": 0
+                    }
+                }, {
                     "actionTypeId": "STYLE_OPACITY",
                     "config": {
                         "delay": 0,
@@ -36394,8 +36120,77 @@ Webflow.require('ix2').init({
                         },
                         "value": 0
                     }
+                }]
+            }]
+        },
+        "growIn": {
+            "id": "growIn",
+            "useFirstGroupAsInitialState": true,
+            "actionItemGroups": [{
+                "actionItems": [{
+                    "actionTypeId": "STYLE_OPACITY",
+                    "config": {
+                        "delay": 0,
+                        "duration": 0,
+                        "target": {
+                            "id": "N/A",
+                            "appliesTo": "TRIGGER_ELEMENT",
+                            "useEventTarget": true
+                        },
+                        "value": 0
+                    }
+                }]
+            }, {
+                "actionItems": [{
+                    "actionTypeId": "TRANSFORM_SCALE",
+                    "config": {
+                        "delay": 0,
+                        "duration": 0,
+                        "target": {
+                            "id": "N/A",
+                            "appliesTo": "TRIGGER_ELEMENT",
+                            "useEventTarget": true
+                        },
+                        "xValue": 0.7500000000000001,
+                        "yValue": 0.7500000000000001
+                    }
+                }]
+            }, {
+                "actionItems": [{
+                    "actionTypeId": "TRANSFORM_SCALE",
+                    "config": {
+                        "delay": 0,
+                        "easing": "outQuart",
+                        "duration": 1000,
+                        "target": {
+                            "id": "N/A",
+                            "appliesTo": "TRIGGER_ELEMENT",
+                            "useEventTarget": true
+                        },
+                        "xValue": 1,
+                        "yValue": 1
+                    }
                 }, {
-                    "actionTypeId": "TRANSFORM_MOVE",
+                    "actionTypeId": "STYLE_OPACITY",
+                    "config": {
+                        "delay": 0,
+                        "easing": "outQuart",
+                        "duration": 1000,
+                        "target": {
+                            "id": "N/A",
+                            "appliesTo": "TRIGGER_ELEMENT",
+                            "useEventTarget": true
+                        },
+                        "value": 1
+                    }
+                }]
+            }]
+        },
+        "shrinkOut": {
+            "id": "shrinkOut",
+            "actionItemGroups": [{
+                "actionItems": [{
+                    "actionTypeId": "TRANSFORM_SCALE",
                     "config": {
                         "delay": 0,
                         "easing": "inQuart",
@@ -36405,11 +36200,21 @@ Webflow.require('ix2').init({
                             "appliesTo": "TRIGGER_ELEMENT",
                             "useEventTarget": true
                         },
-                        "xValue": 0,
-                        "yValue": -100,
-                        "xUnit": "PX",
-                        "yUnit": "PX",
-                        "zUnit": "PX"
+                        "xValue": 0.7500000000000001,
+                        "yValue": 0.7500000000000001
+                    }
+                }, {
+                    "actionTypeId": "STYLE_OPACITY",
+                    "config": {
+                        "delay": 0,
+                        "easing": "inQuart",
+                        "duration": 1000,
+                        "target": {
+                            "id": "N/A",
+                            "appliesTo": "TRIGGER_ELEMENT",
+                            "useEventTarget": true
+                        },
+                        "value": 0
                     }
                 }]
             }]
@@ -37333,69 +37138,6 @@ Webflow.require('ix2').init({
                 }]
             }]
         },
-        "growIn": {
-            "id": "growIn",
-            "useFirstGroupAsInitialState": true,
-            "actionItemGroups": [{
-                "actionItems": [{
-                    "actionTypeId": "STYLE_OPACITY",
-                    "config": {
-                        "delay": 0,
-                        "duration": 0,
-                        "target": {
-                            "id": "N/A",
-                            "appliesTo": "TRIGGER_ELEMENT",
-                            "useEventTarget": true
-                        },
-                        "value": 0
-                    }
-                }]
-            }, {
-                "actionItems": [{
-                    "actionTypeId": "TRANSFORM_SCALE",
-                    "config": {
-                        "delay": 0,
-                        "duration": 0,
-                        "target": {
-                            "id": "N/A",
-                            "appliesTo": "TRIGGER_ELEMENT",
-                            "useEventTarget": true
-                        },
-                        "xValue": 0.7500000000000001,
-                        "yValue": 0.7500000000000001
-                    }
-                }]
-            }, {
-                "actionItems": [{
-                    "actionTypeId": "TRANSFORM_SCALE",
-                    "config": {
-                        "delay": 0,
-                        "easing": "outQuart",
-                        "duration": 1000,
-                        "target": {
-                            "id": "N/A",
-                            "appliesTo": "TRIGGER_ELEMENT",
-                            "useEventTarget": true
-                        },
-                        "xValue": 1,
-                        "yValue": 1
-                    }
-                }, {
-                    "actionTypeId": "STYLE_OPACITY",
-                    "config": {
-                        "delay": 0,
-                        "easing": "outQuart",
-                        "duration": 1000,
-                        "target": {
-                            "id": "N/A",
-                            "appliesTo": "TRIGGER_ELEMENT",
-                            "useEventTarget": true
-                        },
-                        "value": 1
-                    }
-                }]
-            }]
-        },
         "growOut": {
             "id": "growOut",
             "actionItemGroups": [{
@@ -37521,72 +37263,6 @@ Webflow.require('ix2').init({
                             "useEventTarget": true
                         },
                         "value": 1
-                    }
-                }]
-            }]
-        },
-        "shrinkOut": {
-            "id": "shrinkOut",
-            "actionItemGroups": [{
-                "actionItems": [{
-                    "actionTypeId": "TRANSFORM_SCALE",
-                    "config": {
-                        "delay": 0,
-                        "easing": "inQuart",
-                        "duration": 1000,
-                        "target": {
-                            "id": "N/A",
-                            "appliesTo": "TRIGGER_ELEMENT",
-                            "useEventTarget": true
-                        },
-                        "xValue": 0.7500000000000001,
-                        "yValue": 0.7500000000000001
-                    }
-                }, {
-                    "actionTypeId": "STYLE_OPACITY",
-                    "config": {
-                        "delay": 0,
-                        "easing": "inQuart",
-                        "duration": 1000,
-                        "target": {
-                            "id": "N/A",
-                            "appliesTo": "TRIGGER_ELEMENT",
-                            "useEventTarget": true
-                        },
-                        "value": 0
-                    }
-                }]
-            }]
-        },
-        "shrinkBigOut": {
-            "id": "shrinkBigOut",
-            "actionItemGroups": [{
-                "actionItems": [{
-                    "actionTypeId": "TRANSFORM_SCALE",
-                    "config": {
-                        "delay": 0,
-                        "easing": "inQuart",
-                        "duration": 1000,
-                        "target": {
-                            "id": "N/A",
-                            "appliesTo": "TRIGGER_ELEMENT",
-                            "useEventTarget": true
-                        },
-                        "xValue": 0,
-                        "yValue": 0
-                    }
-                }, {
-                    "actionTypeId": "STYLE_OPACITY",
-                    "config": {
-                        "delay": 0,
-                        "easing": "inQuart",
-                        "duration": 1000,
-                        "target": {
-                            "id": "N/A",
-                            "appliesTo": "TRIGGER_ELEMENT",
-                            "useEventTarget": true
-                        },
-                        "value": 0
                     }
                 }]
             }]
