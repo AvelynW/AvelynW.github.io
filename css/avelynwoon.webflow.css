@@ -5869,6 +5869,10 @@ h3 {
   .div-block-111 {
     margin-bottom: 2vh;
   }
+
+  .case-studies {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -6955,6 +6959,15 @@ h3 {
     margin-top: 5vh;
     margin-bottom: 0;
     font-size: 2vh;
+    line-height: 5vh;
+  }
+
+  .case-studies {
+    margin-top: -1vh;
+  }
+
+  .text-block-37 {
+    font-size: 4vh;
     line-height: 5vh;
   }
 }
