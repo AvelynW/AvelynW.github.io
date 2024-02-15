@@ -36429,19 +36429,23 @@ Webflow.require('ix2').init({
             "action": {
                 "id": "",
                 "actionTypeId": "SLIDE_EFFECT",
+                "instant": false,
                 "config": {
                     "actionListId": "slideInTop",
                     "autoStopEventId": "e-368"
-                },
-                "instant": false
+                }
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "636a935efd48d11b402f499c|0fa5aab6-7c6c-6749-52b6-4777df634452",
                 "appliesTo": "ELEMENT",
-                "styleBlockIds": [],
-                "id": "636a935efd48d11b402f499c|0fa5aab6-7c6c-6749-52b6-4777df634452"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "636a935efd48d11b402f499c|0fa5aab6-7c6c-6749-52b6-4777df634452",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -36461,19 +36465,23 @@ Webflow.require('ix2').init({
             "action": {
                 "id": "",
                 "actionTypeId": "FADE_EFFECT",
+                "instant": false,
                 "config": {
                     "actionListId": "fadeOut",
                     "autoStopEventId": "e-367"
-                },
-                "instant": false
+                }
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "636a935efd48d11b402f499c|0fa5aab6-7c6c-6749-52b6-4777df634452",
                 "appliesTo": "ELEMENT",
-                "styleBlockIds": [],
-                "id": "636a935efd48d11b402f499c|0fa5aab6-7c6c-6749-52b6-4777df634452"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "636a935efd48d11b402f499c|0fa5aab6-7c6c-6749-52b6-4777df634452",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -36493,19 +36501,23 @@ Webflow.require('ix2').init({
             "action": {
                 "id": "",
                 "actionTypeId": "SLIDE_EFFECT",
+                "instant": false,
                 "config": {
                     "actionListId": "slideInBottom",
                     "autoStopEventId": "e-370"
-                },
-                "instant": false
+                }
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "636a935efd48d11b402f499c|1d994618-be8a-daab-f273-71b4087b9abc",
                 "appliesTo": "ELEMENT",
-                "styleBlockIds": [],
-                "id": "636a935efd48d11b402f499c|1d994618-be8a-daab-f273-71b4087b9abc"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "636a935efd48d11b402f499c|1d994618-be8a-daab-f273-71b4087b9abc",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -36525,19 +36537,23 @@ Webflow.require('ix2').init({
             "action": {
                 "id": "",
                 "actionTypeId": "FADE_EFFECT",
+                "instant": false,
                 "config": {
                     "actionListId": "fadeOut",
                     "autoStopEventId": "e-369"
-                },
-                "instant": false
+                }
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "636a935efd48d11b402f499c|1d994618-be8a-daab-f273-71b4087b9abc",
                 "appliesTo": "ELEMENT",
-                "styleBlockIds": [],
-                "id": "636a935efd48d11b402f499c|1d994618-be8a-daab-f273-71b4087b9abc"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "636a935efd48d11b402f499c|1d994618-be8a-daab-f273-71b4087b9abc",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -36557,19 +36573,23 @@ Webflow.require('ix2').init({
             "action": {
                 "id": "",
                 "actionTypeId": "SLIDE_EFFECT",
+                "instant": false,
                 "config": {
                     "actionListId": "slideInTopLeft",
                     "autoStopEventId": "e-372"
-                },
-                "instant": false
+                }
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "636a935efd48d11b402f499c|f6bc96cc-b5db-116f-4236-b4fb3471630c",
                 "appliesTo": "ELEMENT",
-                "styleBlockIds": [],
-                "id": "636a935efd48d11b402f499c|f6bc96cc-b5db-116f-4236-b4fb3471630c"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "636a935efd48d11b402f499c|f6bc96cc-b5db-116f-4236-b4fb3471630c",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -36589,19 +36609,23 @@ Webflow.require('ix2').init({
             "action": {
                 "id": "",
                 "actionTypeId": "FADE_EFFECT",
+                "instant": false,
                 "config": {
                     "actionListId": "fadeOut",
                     "autoStopEventId": "e-371"
-                },
-                "instant": false
+                }
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "636a935efd48d11b402f499c|f6bc96cc-b5db-116f-4236-b4fb3471630c",
                 "appliesTo": "ELEMENT",
-                "styleBlockIds": [],
-                "id": "636a935efd48d11b402f499c|f6bc96cc-b5db-116f-4236-b4fb3471630c"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "636a935efd48d11b402f499c|f6bc96cc-b5db-116f-4236-b4fb3471630c",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -36621,19 +36645,23 @@ Webflow.require('ix2').init({
             "action": {
                 "id": "",
                 "actionTypeId": "SLIDE_EFFECT",
+                "instant": false,
                 "config": {
                     "actionListId": "slideInBottomLeft",
                     "autoStopEventId": "e-374"
-                },
-                "instant": false
+                }
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "636a935efd48d11b402f499c|12ff47ed-1fb2-52b7-4da1-76cfe16b65a7",
                 "appliesTo": "ELEMENT",
-                "styleBlockIds": [],
-                "id": "636a935efd48d11b402f499c|12ff47ed-1fb2-52b7-4da1-76cfe16b65a7"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "636a935efd48d11b402f499c|12ff47ed-1fb2-52b7-4da1-76cfe16b65a7",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -36653,19 +36681,23 @@ Webflow.require('ix2').init({
             "action": {
                 "id": "",
                 "actionTypeId": "FADE_EFFECT",
+                "instant": false,
                 "config": {
                     "actionListId": "fadeOut",
                     "autoStopEventId": "e-373"
-                },
-                "instant": false
+                }
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "636a935efd48d11b402f499c|12ff47ed-1fb2-52b7-4da1-76cfe16b65a7",
                 "appliesTo": "ELEMENT",
-                "styleBlockIds": [],
-                "id": "636a935efd48d11b402f499c|12ff47ed-1fb2-52b7-4da1-76cfe16b65a7"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "636a935efd48d11b402f499c|12ff47ed-1fb2-52b7-4da1-76cfe16b65a7",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
