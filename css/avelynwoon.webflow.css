@@ -198,27 +198,27 @@ td, th {
 }
 
 .w-icon-slider-right:before {
-  content: "";
+  content: "î˜€";
 }
 
 .w-icon-slider-left:before {
-  content: "";
+  content: "î˜";
 }
 
 .w-icon-nav-menu:before {
-  content: "";
+  content: "î˜‚";
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-  content: "";
+  content: "î˜ƒ";
 }
 
 .w-icon-file-upload-remove:before {
-  content: "";
+  content: "î¤€";
 }
 
 .w-icon-file-upload-icon:before {
-  content: "";
+  content: "î¤ƒ";
 }
 
 * {
@@ -2093,6 +2093,11 @@ textarea.w-input, textarea.w-select {
 
 .wf-layout-layout {
   display: grid;
+}
+
+:root {
+  --white: white;
+  --black: black;
 }
 
 .w-layout-grid {
@@ -5613,8 +5618,8 @@ h3 {
 }
 
 .div-block-113 {
+  width: 100%;
   justify-content: center;
-  margin-top: 1vh;
   display: flex;
 }
 
@@ -5630,6 +5635,7 @@ h3 {
   flex-flow: column;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1vh;
   display: flex;
 }
 
@@ -5913,7 +5919,7 @@ h3 {
     margin-bottom: 2vh;
   }
 
-  .case-studies {
+  .case-studies, .div-block-114 {
     margin-top: 0;
   }
 }
@@ -5959,8 +5965,8 @@ h3 {
   }
 
   .image {
-    width: 25vh;
-    height: 25vh;
+    width: 35%;
+    height: 100%;
   }
 
   .dark-clouds {
@@ -6262,6 +6268,10 @@ h3 {
   .column-27, .column-28, .column-29 {
     display: block;
   }
+
+  .div-block-114 {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -6339,7 +6349,7 @@ h3 {
   }
 
   .image {
-    width: 35vw;
+    width: 35%;
     max-height: 100%;
     float: none;
     text-align: center;
@@ -7013,6 +7023,14 @@ h3 {
   .text-block-37 {
     font-size: 4vh;
     line-height: 5vh;
+  }
+
+  .div-block-113 {
+    width: 100%;
+  }
+
+  .div-block-114 {
+    margin-top: 0;
   }
 }
 
